@@ -1,17 +1,3 @@
-//VARIATION ~ Game
-//once the target is within this.size distance
-//"eat" the target
-// - average the color of this based on the relative sizes
-// - add the size of target to this
-// - remove the target from the arr
-// - find new target
-// ~~~CONSIDER GROWING ANIMATION~~~
-// - stop moving after eating
-// - gain .5 size per frame
-// - gain some portion of the total color change
-//   per frame according to above
-// - continue seeking after finished
-
 Mover[] movers;
 PImage img;
 PImage img2;
@@ -20,8 +6,8 @@ boolean isMoving = false;
 import java.util.*;
 
 void setup() {
-  img = loadImage(sketchPath()+"\\power.jpg");
-  img2 = loadImage(sketchPath()+"\\monkaS.png");  
+  img = loadImage(sketchPath()+"\\tiger.jpg");
+  img2 = loadImage(sketchPath()+"\\lion.png");  
   img.resize(100, 0);
   img2.resize(img.width, img.height);
   surface.setResizable(true);
