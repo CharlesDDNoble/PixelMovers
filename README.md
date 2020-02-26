@@ -10,7 +10,7 @@ An interesting interactive animation that converts an image into another image u
 Basically, the program maps one image *src* to another image *dst* by:
 1. Scaling them to be similar proportions
 2. Sampling pixels from each
-3. Sorting sampled pixels for both by (luma)[https://en.wikipedia.org/wiki/Luma_(video)].
+3. Sorting sampled pixels for both by [https://en.wikipedia.org/wiki/Luma_(video)](luma).
    The original screen position of each pixel is stored before the sort.
 4. Using the sorted index in both as a map between the first image and the second,
    e.g. *sortedImage1*[i] is mapped to *sortedImage2*[i].
