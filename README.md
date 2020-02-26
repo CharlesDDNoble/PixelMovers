@@ -14,4 +14,5 @@ Basically, the program maps one image *src* to another image *dst* by:
    The original screen position of each pixel is stored before the sort.
 4. Using the sorted index in both as a map between the first image and the second,
    e.g. *sortedImage1*[i] is mapped to *sortedImage2*[i].
-5. Each sampled pixel is turned into a particle that moves to its new mapped location.
+5. Each sampled pixel is turned into a particle that moves to its new mapped location
+   to create a nifty animation!
