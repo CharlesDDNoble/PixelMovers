@@ -11,8 +11,8 @@ An interesting interactive animation that converts an image into another image u
 
 ### Output Animation
 ![Example 1](./example_1.gif)  
-*original tiger image -> luma sorted pixels -> new lion image*
-*Note: the animation's resolution was lowered so it could fit on git*
+*original tiger image -> luma sorted pixels -> new lion image*  
+*Note: the animation's resolution was lowered so it could fit on git*  
 
 ### Overview
 Basically, the program maps one image *src* to another image *dst* by:
