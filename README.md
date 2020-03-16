@@ -15,6 +15,7 @@ An interesting interactive animation that converts an image into another image u
 
 ### Overview
 *original source image -> luma sorted pixels -> destination image with new sampled pixels*  
+  
 Basically, the program maps one image *src* to another image *dst* by:
 1. Scaling them to be similar proportions
 2. Sampling pixels from each
