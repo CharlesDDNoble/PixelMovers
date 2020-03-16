@@ -4,7 +4,7 @@ An interesting interactive animation that converts an image into another image u
 ### Example
 
 ![Example 1](./example_1.gif)
-
+*original tiger image -> luma sorted pixels -> new lion image*
 
 ### Overview
 Basically, the program maps one image *src* to another image *dst* by:
