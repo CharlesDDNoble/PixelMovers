@@ -1,25 +1,25 @@
 Mover[] movers;
 PImage img;
 PImage img2;
-int scale = 10;
+int scale = 1;
 boolean isMoving = false;
 import java.util.*;
 
 void setup() {
-  img = loadImage(sketchPath()+"\\tiger.jpg");
-  img2 = loadImage(sketchPath()+"\\lion.png");  
-  img.resize(100, 0);
+  img = loadImage(sketchPath()+"\\images\\rifle.jpg");
+  img2 = loadImage(sketchPath()+"\\images\\white_rose.png");  
+  img.resize(400, 0);
   img2.resize(img.width, img.height);
   surface.setResizable(true);
   surface.setSize(img.width*scale, img.height*scale);
   movers = new Mover[img.width*img.height];
   createMovers(img, img2, scale);
-  frameRate(45);
+  frameRate(45); //<>//
 }
 
 void draw() {
   background(255);
-  noStroke();
+  noStroke(); //<>//
   for (Mover mover : movers) {
     if (isMoving) {
       mover.move();
@@ -32,21 +32,21 @@ void draw() {
 }
 
 void mousePressed() {
-  if (mouseButton == LEFT) {
-    if (isMoving) isMoving = false;
-    else isMoving = true;
-  } else if (mouseButton == RIGHT) {
-    for (Mover mover: movers) {
-      mover.changeTarget((mover.targetIndex+1) % mover.targets.size());
-    }
-  }
+  if (mouseButton == LEFT) { //<>//
+    if (isMoving) isMoving = false; //<>//
+    else isMoving = true; //<>//
+  } else if (mouseButton == RIGHT) { //<>//
+    for (Mover mover: movers) { //<>//
+      mover.changeTarget((mover.targetIndex+1) % mover.targets.size()); //<>//
+    } //<>//
+  } //<>//
 }
 
 void mouseDragged() {
   if (mouseButton == CENTER) {
-    for (Mover mover : movers) {
-      if (dist(mouseX, mouseY, mover.pos.x, mover.pos.y) < mover.size) {
-        mover.isHidden = true;
+    for (Mover mover : movers) { //<>//
+      if (dist(mouseX, mouseY, mover.pos.x, mover.pos.y) < mover.size) { //<>//
+        mover.isHidden = true; //<>//
       }
     }
   }

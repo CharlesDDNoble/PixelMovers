@@ -4,14 +4,21 @@ An interesting interactive animation that converts an image into another image u
 ## Example
 
 ### Source Image
-![original source image](./tiger.jpg)  
+![original source image](./images/rifle.jpg)  
 
 ### Destination Image
-![original destination image](./lion.jpg)  
+![original destination image](./images/white_rose.png)  
 
 ### Output Animation
-![Example 1](./example_1.gif)  
-*Note: the animation's resolution was lowered so it could fit on git*  
+
+<video src="./output.mp4" controls width="100%"></video>  
+
+## Controls
+
+The animation starts frozen.
+Right click to toggle the freeze.
+Left click to change to the next image.
+The order is image1 -> sorted -> image2 -> image1 -> ...
 
 ### Overview
 *original source image -> luma sorted pixels -> destination image with new sampled pixels*  
