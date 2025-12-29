@@ -11,7 +11,9 @@ An interesting interactive animation that converts an image into another image u
 
 ### Output Animation
 
-<video src="./output.mp4" controls width="100%"></video>  
+https://github.com/user-attachments/assets/61551dab-2342-48fc-950e-52e9ded8b1e8
+
+[![Guns to Roses](https://img.youtube.com/vi/UmjSOc337yY/hqdefault.jpg)](https://www.youtube.com/watch?v=UmjSOc337yY)
 
 ## Controls
 
@@ -21,7 +23,6 @@ An interesting interactive animation that converts an image into another image u
 #### The order is image1 -> sorted -> image2 -> image1 -> ...
 #### Uncomment the saveframe line in the sketch to save animation frames to individual image files.
 #### You can compile the image files using ffmpeg to generate a mp4 or gif.
-
 
 ### Overview
 *original source image -> luma sorted pixels -> destination image with new sampled pixels*  
