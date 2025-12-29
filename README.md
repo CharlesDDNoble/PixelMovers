@@ -15,10 +15,13 @@ An interesting interactive animation that converts an image into another image u
 
 ## Controls
 
-The animation starts frozen.
-Right click to toggle the freeze.
-Left click to change to the next image.
-The order is image1 -> sorted -> image2 -> image1 -> ...
+#### The animation starts frozen.
+#### Right click to toggle the freeze.
+#### Left click to change to the next image.
+#### The order is image1 -> sorted -> image2 -> image1 -> ...
+#### Uncomment the saveframe line in the sketch to save animation frames to individual image files.
+#### You can compile the image files using ffmpeg to generate a mp4 or gif.
+
 
 ### Overview
 *original source image -> luma sorted pixels -> destination image with new sampled pixels*  
